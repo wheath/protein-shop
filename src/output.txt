@@ -1,0 +1,93 @@
+g++ -c -o SerialPort.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  SerialPort.cpp
+g++ -c -o TCPSocket2.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  TCPSocket2.cpp
+g++ -c -o Timer.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Timer.cpp
+g++ -c -o ConfigurationFile.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  ConfigurationFile.cpp
+g++ -c -o DenseMatrix.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  DenseMatrix.cpp
+g++ -c -o Math/Constants.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Math/Constants.cpp
+g++ -c -o Math/Random.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Math/Random.cpp
+g++ -c -o Math/Interval.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Math/Interval.cpp
+g++ -c -o Geometry/ComponentArray.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/ComponentArray.cpp
+g++ -c -o Geometry/Vector.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/Vector.cpp
+g++ -c -o Geometry/Point.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/Point.cpp
+g++ -c -o Geometry/HVector.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/HVector.cpp
+g++ -c -o Geometry/Matrix.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/Matrix.cpp
+g++ -c -o Geometry/Rotation.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/Rotation.cpp
+g++ -c -o Geometry/TranslationTransformation.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/TranslationTransformation.cpp
+g++ -c -o Geometry/RotationTransformation.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/RotationTransformation.cpp
+g++ -c -o Geometry/OrthonormalTransformation.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/OrthonormalTransformation.cpp
+g++ -c -o Geometry/UniformScalingTransformation.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/UniformScalingTransformation.cpp
+g++ -c -o Geometry/OrthogonalTransformation.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/OrthogonalTransformation.cpp
+g++ -c -o Geometry/ScalingTransformation.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/ScalingTransformation.cpp
+g++ -c -o Geometry/AffineTransformation.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/AffineTransformation.cpp
+g++ -c -o Geometry/ProjectiveTransformation.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/ProjectiveTransformation.cpp
+g++ -c -o Geometry/Box.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/Box.cpp
+g++ -c -o Geometry/Polygon.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/Polygon.cpp
+g++ -c -o Geometry/SplineCurve.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/SplineCurve.cpp
+g++ -c -o Geometry/SplinePatch.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/SplinePatch.cpp
+g++ -c -o Geometry/Random.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Geometry/Random.cpp
+g++ -c -o GLColorMap.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  GLColorMap.cpp
+g++ -c -o GLMaterial.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  GLMaterial.cpp
+g++ -c -o GLLightSource.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  GLLightSource.cpp
+g++ -c -o GLText.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  -I/usr/include  GLText.cpp
+g++ -c -o GLLineIlluminator.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  GLLineIlluminator.cpp
+g++ -c -o GLTransformations.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  GLTransformations.cpp
+g++ -c -o IK.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  IK.cpp
+g++ -c -o DragBox.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  DragBox.cpp
+g++ -c -o Atom.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Atom.cpp
+g++ -c -o Protein.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Protein.cpp
+g++ -c -o ProteinFactory.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  ProteinFactory.cpp
+g++ -c -o ParsePdbFile.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  ParsePdbFile.cpp
+/usr/bin/fluid -c -h ProteinGui.h -o ProteinGui.cpp ProteinGui.fl
+g++ -c -o ProteinRenderer.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  ProteinRenderer.cpp
+g++ -c -o ReadStandards.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  ReadStandards.cpp
+g++ -c -o ReadPredictionFile.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  ReadPredictionFile.cpp
+g++ -c -o SetDihedrals.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  SetDihedrals.cpp
+SetDihedrals.cpp: In function ‘MD::Protein* MD::SetDihedrals(int, const int*, const char*, const double*, const double*)’:
+SetDihedrals.cpp:194: warning: deprecated conversion from string constant to ‘char*’
+SetDihedrals.cpp:199: warning: deprecated conversion from string constant to ‘char*’
+g++ -c -o BuildBeta.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  -I/usr/include BuildBeta.cpp
+g++ -c -o CreateProtein.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  CreateProtein.cpp
+g++ -c -o EnergyAPI.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  EnergyAPI.cpp
+g++ -c -o EnergyRenderer.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  EnergyRenderer.cpp
+g++ -c -o ColorFunction.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  ColorFunction.cpp
+g++ -c -o AtomClassifier.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  AtomClassifier.cpp
+g++ -c -o VolumeRenderer.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  VolumeRenderer.cpp
+g++ -c -o ProteinRecord.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  ProteinRecord.cpp
+g++ -c -o ProteinClient.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  -DCLIENT_SIDE ProteinClient.cpp
+g++ -c -o Stride.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  Stride.cpp
+Stride.cpp: In constructor ‘Stride::Stride()’:
+Stride.cpp:33: warning: deprecated conversion from string constant to ‘char*’
+Stride.cpp: In member function ‘int Stride::stridePrediction(const char*)’:
+Stride.cpp:47: warning: deprecated conversion from string constant to ‘char*’
+g++ -c -o UndoBuffer.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  UndoBuffer.cpp
+g++ -c -o ProteinInteractor.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  ProteinInteractor.cpp
+g++ -c -o Globals.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  -I/usr/include Globals.cpp
+g++ -c -o SpaceBall.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  SpaceBall.cpp
+SpaceBall.cpp: In constructor ‘SpaceBall::SpaceBall(std::string)’:
+SpaceBall.cpp:244: warning: deprecated conversion from string constant to ‘char*’
+SpaceBall.cpp:244: warning: deprecated conversion from string constant to ‘char*’
+SpaceBall.cpp:244: warning: deprecated conversion from string constant to ‘char*’
+SpaceBall.cpp:244: warning: deprecated conversion from string constant to ‘char*’
+g++ -c -o MySpaceBall.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  MySpaceBall.cpp
+g++ -c -o MyFlGlWindow.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  MyFlGlWindow.cpp
+g++ -c -o MyRoller.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  -I/usr/include MyRoller.cpp
+g++ -c -o SequenceWidget.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  -I/usr/include SequenceWidget.cpp
+g++ -c -o RamachandranPlot.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  -I/usr/include RamachandranPlot.cpp
+g++ -c -o ProteinGui.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  -I/usr/include ProteinGui.cpp
+g++ -c -o ProteinFltk.o -D__LINUX__ -D__LITTLE_ENDIAN=1234 -D__BIG_ENDIAN=4321 -DFLTK_NEW -DFLTK_DOUBLE -DGL_GLEXT_PROTOTYPES -ffriend-injection -I. -g0 -O3 -DNDEBUG -I/usr/include  -I/usr/include ProteinFltk.cpp
+ProteinFltk.cpp: In function ‘void windowCB(Fl_Double_Window*, void*)’:
+ProteinFltk.cpp:950: warning: ‘int fl_ask(const char*, ...)’ is deprecated (declared at /usr/include/FL/fl_ask.H:59)
+ProteinFltk.cpp:950: warning: ‘int fl_ask(const char*, ...)’ is deprecated (declared at /usr/include/FL/fl_ask.H:59)
+ProteinFltk.cpp: In function ‘void quitCB(Fl_Menu_*, void*)’:
+ProteinFltk.cpp:1431: warning: ‘int fl_ask(const char*, ...)’ is deprecated (declared at /usr/include/FL/fl_ask.H:59)
+ProteinFltk.cpp:1431: warning: ‘int fl_ask(const char*, ...)’ is deprecated (declared at /usr/include/FL/fl_ask.H:59)
+ProteinFltk.cpp: In function ‘void selectionDialogRemoveButtonCB(Fl_Button*, void*)’:
+ProteinFltk.cpp:3207: warning: ‘int fl_ask(const char*, ...)’ is deprecated (declared at /usr/include/FL/fl_ask.H:59)
+ProteinFltk.cpp:3207: warning: ‘int fl_ask(const char*, ...)’ is deprecated (declared at /usr/include/FL/fl_ask.H:59)
+g77 -w  -c -o fitsq.o fitsq.f
+g++ -rdynamic -o ProteinShop SerialPort.o TCPSocket2.o Timer.o ConfigurationFile.o DenseMatrix.o Math/Constants.o Math/Random.o Math/Interval.o Geometry/ComponentArray.o Geometry/Vector.o Geometry/Point.o Geometry/HVector.o Geometry/Matrix.o Geometry/Rotation.o Geometry/TranslationTransformation.o Geometry/RotationTransformation.o Geometry/OrthonormalTransformation.o Geometry/UniformScalingTransformation.o Geometry/OrthogonalTransformation.o Geometry/ScalingTransformation.o Geometry/AffineTransformation.o Geometry/ProjectiveTransformation.o Geometry/Box.o Geometry/Polygon.o Geometry/SplineCurve.o Geometry/SplinePatch.o Geometry/Random.o GLColorMap.o GLMaterial.o GLLightSource.o GLText.o GLLineIlluminator.o GLTransformations.o Math/Math.h Math/Constants.h IK.o DragBox.o Atom.o Protein.o ProteinFactory.o ParsePdbFile.o ProteinRenderer.o ReadStandards.o ReadPredictionFile.o SetDihedrals.o BuildBeta.o CreateProtein.o EnergyAPI.o EnergyRenderer.o ColorFunction.o AtomClassifier.o VolumeRenderer.o ProteinRecord.o ProteinClient.o Stride.o UndoBuffer.o ProteinInteractor.o Globals.o SpaceBall.o MySpaceBall.o MyFlGlWindow.o MyRoller.o SequenceWidget.o RamachandranPlot.o ProteinGui.o ProteinFltk.o fitsq.o -lg2c -L/usr/lib -lfltk_gl -lfltk -L/usr/lib -lGL -lpthread -lm -ldl
+GLLineIlluminator.o: In function `GLLineIlluminator::enableLighting(GLContextData&) const':
+GLLineIlluminator.cpp:(.text+0xd04): undefined reference to `Geometry::ComponentArray<float, 3>::ComponentArray<float, 4>(Geometry::ComponentArray<float, 4> const&)'
+GLLineIlluminator.cpp:(.text+0xd35): undefined reference to `Geometry::ComponentArray<float, 3>::ComponentArray<float, 4>(Geometry::ComponentArray<float, 4> const&)'
+collect2: ld returned 1 exit status
+make: *** [ProteinShop] Error 1
